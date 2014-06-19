@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager", "MediaManager\MediaManager.csproj", "{1ACFD352-48AC-4B41-81DE-8F748F9B1758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManagerTests", "MediaManagerTests\MediaManagerTests.csproj", "{CAC55E29-7A13-48F6-AD02-B2348E1DAF7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ACFD352-48AC-4B41-81DE-8F748F9B1758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACFD352-48AC-4B41-81DE-8F748F9B1758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACFD352-48AC-4B41-81DE-8F748F9B1758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACFD352-48AC-4B41-81DE-8F748F9B1758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC55E29-7A13-48F6-AD02-B2348E1DAF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC55E29-7A13-48F6-AD02-B2348E1DAF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC55E29-7A13-48F6-AD02-B2348E1DAF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC55E29-7A13-48F6-AD02-B2348E1DAF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
