@@ -11,8 +11,20 @@ namespace MediaManager
         static void Main(string[] args)
         {
 
-            var FolderPath = @"C:\Users";
-            Console.WriteLine("Folder " + FolderPath + " is " + FileManagement.FolderExists(FolderPath));
+            var folderPath = Environment.SpecialFolder.MyDocuments.ToString();
+            var folderName = "MediaTestFolder";
+            // var folderPath = @"C:\Users";
+            const string defaultMediaFiles = "DefaultMediaFile.txt";
+
+            List<string> results = FileManagement.MultipleFilesExist(defaultMediaFiles);
+            foreach (var result in results )
+            {
+               Console.WriteLine(result);
+            }
+
+            Console.WriteLine("Media folder exists? " + FileManagement.CreateFolder(folderPath, folderName));
+            Console.ReadLine();
+            Console.WriteLine("Folder exists? " + FileManagement.MoveFolderToTrash(folderPath, folderName));
             Console.ReadLine();
         }
     }
