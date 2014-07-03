@@ -1,0 +1,19 @@
+﻿<Window x:Class="AppCompatTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Source Folder" HorizontalAlignment="Left" Margin="34,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="sourceFolderEditBox" HorizontalAlignment="Left" Height="23" Margin="40,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="391,68,0,0" VerticalAlignment="Top" Width="76" Click="BrowseSourceFolderButtonClick"/>
+        <Label Content="Destination Folder" HorizontalAlignment="Left" Margin="34,139,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="destinationFolderEditBox" HorizontalAlignment="Left" Height="23" Margin="40,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="391,171,0,0" VerticalAlignment="Top" Width="76" Click="BrowseDestinationFolderButtonClick"/>
+        <Button Content="Copy" HorizontalAlignment="Left" Margin="115,253,0,0" VerticalAlignment="Top" Width="75" IsDefault="True"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="304,253,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="ExitButtonClick"/>
+
+    </Grid>
+</Window>
